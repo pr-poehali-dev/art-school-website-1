@@ -99,9 +99,9 @@ const Index = () => {
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-40 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between h-16">
-          <button onClick={() => scrollTo('hero')} className="flex items-center gap-2 font-display font-extrabold text-xl">
-            <span className="w-9 h-9 rounded-xl bg-primary text-primary-foreground grid place-items-center">П</span>
-            Палитра
+          <button onClick={() => scrollTo('hero')} className="flex items-center gap-2 font-display font-extrabold text-[2rem] leading-none">
+            <span className="text-4xl">🎨</span>
+            <span className="text-primary">Палитра</span>
           </button>
           <nav className="hidden lg:flex items-center gap-7">
             {navLinks.map((l) => (
