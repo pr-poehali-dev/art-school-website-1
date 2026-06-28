@@ -7,12 +7,14 @@ const WORK_2 = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4de
 const WORK_3 = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/947d7efd-b9d9-44c4-82d2-c33821a12448.jpg';
 const PENCIL = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/f7a48a5c-d59a-47b0-a3ba-2cd3f882e707.jpg';
 const WATERCOLOR = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/3aa5dc7d-e367-43ad-8eb2-43776a08e4d8.jpg';
+const GOUACHE = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/81010ba2-59aa-4ea6-b6f8-ffc8ab19768a.jpg';
 
 const courses = [
   { icon: 'PencilLine', title: 'Рисунок', color: 'bg-primary', desc: 'Учимся видеть форму, объём и свет. Карандаш, уголь, основы перспективы и построения.', img: PENCIL },
   { icon: 'Palette', title: 'Живопись', color: 'bg-secondary', desc: 'Масло и акрил, работа с цветом и настроением. От первого мазка до законченной картины.', img: WATERCOLOR },
   { icon: 'Apple', title: 'Натюрморт', color: 'bg-accent', desc: 'Композиция, фактуры и цветовые отношения. Любимый жанр для развития насмотренности.', img: WORK_2 },
   { icon: 'Shapes', title: 'Скульптура', color: 'bg-primary', desc: 'Лепка из глины, объём руками. Чувство пропорций и пластики формы в трёх измерениях.', img: WORK_3 },
+  { icon: 'LayoutTemplate', title: 'Композиция', color: 'bg-secondary', desc: 'Гуашь, коллаж и смешанные техники. Учимся строить сюжет, ритм и баланс на листе.', img: GOUACHE },
 ];
 
 const gallery = [WORK_1, WORK_2, WORK_3, WORK_2, WORK_1, WORK_3];
