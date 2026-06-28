@@ -5,9 +5,10 @@ import { Button } from '@/components/ui/button';
 const WORK_1 = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/61b712c9-0e5f-4952-a06b-8917102649c7.jpg';
 const WORK_2 = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/108c9479-de56-41db-9d4e-6180cec847eb.jpg';
 const WORK_3 = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/947d7efd-b9d9-44c4-82d2-c33821a12448.jpg';
+const PENCIL = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/f7a48a5c-d59a-47b0-a3ba-2cd3f882e707.jpg';
 
 const courses = [
-  { icon: 'PencilLine', title: 'Рисунок', color: 'bg-primary', desc: 'Учимся видеть форму, объём и свет. Карандаш, уголь, основы перспективы и построения.', img: WORK_1 },
+  { icon: 'PencilLine', title: 'Рисунок', color: 'bg-primary', desc: 'Учимся видеть форму, объём и свет. Карандаш, уголь, основы перспективы и построения.', img: PENCIL },
   { icon: 'Palette', title: 'Живопись', color: 'bg-secondary', desc: 'Масло и акрил, работа с цветом и настроением. От первого мазка до законченной картины.', img: WORK_2 },
   { icon: 'Apple', title: 'Натюрморт', color: 'bg-accent', desc: 'Композиция, фактуры и цветовые отношения. Любимый жанр для развития насмотренности.', img: WORK_2 },
   { icon: 'Shapes', title: 'Скульптура', color: 'bg-primary', desc: 'Лепка из глины, объём руками. Чувство пропорций и пластики формы в трёх измерениях.', img: WORK_3 },
