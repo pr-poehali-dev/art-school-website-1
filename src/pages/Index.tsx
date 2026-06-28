@@ -98,9 +98,9 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-40 bg-background/80 backdrop-blur-md border-b border-border">
-        <div className="container flex items-center justify-between h-16">
-          <button onClick={() => scrollTo('hero')} className="flex items-center gap-2 font-display font-extrabold text-[2rem] leading-none">
-            <span className="text-4xl">🎨</span>
+        <div className="container flex items-center justify-between h-20">
+          <button onClick={() => scrollTo('hero')} className="flex items-center gap-3 font-display font-extrabold text-[2.8rem] leading-none">
+            <span className="text-5xl">🎨</span>
             <span className="text-primary">Палитра</span>
           </button>
           <nav className="hidden lg:flex items-center gap-7">
