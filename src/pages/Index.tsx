@@ -31,6 +31,7 @@ const schedule = [
   { day: 'Вторник', time: '19:00', course: 'Живопись маслом' },
   { day: 'Четверг', time: '18:30', course: 'Натюрморт · средний уровень' },
   { day: 'Суббота', time: '12:00', course: 'Скульптура · лепка из глины' },
+  { day: 'Суббота', time: '14:00', course: 'Композиция · гуашь и смешанные техники' },
   { day: 'Воскресенье', time: '11:00', course: 'Свободная мастерская' },
 ];
 
@@ -156,7 +157,7 @@ const Index = () => {
 
       {/* COURSES */}
       <section id="courses" className="container py-24">
-        <SectionTitle eyebrow="наши занятия" title="Четыре направления для творчества" />
+        <SectionTitle eyebrow="наши занятия" title="Пять направлений для творчества" />
         <div className="grid sm:grid-cols-2 gap-6 mt-12">
           {courses.map((c) => (
             <div key={c.title} className="group rounded-3xl border border-border overflow-hidden hover:shadow-xl transition-shadow bg-card">
