@@ -99,7 +99,7 @@ const Index = () => {
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-40 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container flex flex-col items-center justify-center h-20 relative">
-          <button onClick={() => scrollTo('hero')} className="flex items-center gap-3 font-display font-extrabold text-[2.8rem] leading-none">
+          <button onClick={() => scrollTo('hero')} className="flex items-center gap-3 font-display font-extrabold text-[4rem] leading-none">
             <span className="text-5xl">🎨</span>
             <span className="text-primary">Палитра</span>
           </button>
