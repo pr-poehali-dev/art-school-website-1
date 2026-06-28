@@ -121,7 +121,7 @@ const Index = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-float-up">
             <span className="font-hand text-2xl text-secondary">для взрослых · с любого уровня</span>
-            <h1 className="font-display font-extrabold text-5xl md:text-6xl leading-[1.05] mt-2">
+            <h1 className="font-display font-extrabold text-3xl md:text-4xl leading-[1.05] mt-2">
               Научитесь <span className="text-primary">рисовать</span> в радость
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-md">
