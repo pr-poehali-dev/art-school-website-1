@@ -125,7 +125,7 @@ const Index = () => {
               Научитесь <span className="text-primary">рисовать</span> в радость
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-md">
-              Школа «Палитра» — уютное пространство, где взрослые открывают в себе художника. Рисунок, живопись, натюрморт и скульптура.
+              Школа «Палитра» — уютное пространство, где взрослые открывают в себе художника. Уже 8 лет мы преподаём рисунок, живопись, натюрморт, скульптуру и композицию.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Button onClick={() => scrollTo('contacts')} size="lg" className="rounded-full font-semibold text-base h-12 px-7">
