@@ -9,6 +9,9 @@ const PENCIL = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4de
 const WATERCOLOR = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/3aa5dc7d-e367-43ad-8eb2-43776a08e4d8.jpg';
 const GOUACHE = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/81010ba2-59aa-4ea6-b6f8-ffc8ab19768a.jpg';
 const OPEN_DAY = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/a1c697ea-b4ae-4925-ab22-0bd3c08728f0.jpg';
+const PORTRAIT = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/398e8c20-acb2-4f6b-a8fe-99827e9cbcc8.jpg';
+const LANDSCAPE = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/f3210c95-4453-4b03-be2c-56c59cea533b.jpg';
+const ABSTRACT = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/87049a1d-5497-4160-a794-2578d50b319e.jpg';
 
 const courses = [
   { icon: 'PencilLine', title: 'Рисунок', color: 'bg-primary', desc: 'Учимся видеть форму, объём и свет. Карандаш, уголь, основы перспективы и построения.', img: PENCIL },
@@ -18,7 +21,7 @@ const courses = [
   { icon: 'LayoutTemplate', title: 'Композиция', color: 'bg-secondary', desc: 'Гуашь, коллаж и смешанные техники. Учимся строить сюжет, ритм и баланс на листе.', img: GOUACHE },
 ];
 
-const gallery = [WORK_1, WORK_2, WORK_3, WORK_2, WORK_1, WORK_3];
+const gallery = [PENCIL, WATERCOLOR, PORTRAIT, LANDSCAPE, GOUACHE, ABSTRACT];
 
 const teachers = [
   { name: 'Анна Морозова', role: 'Рисунок и академический портрет', emoji: '🎨', exp: '12 лет преподавания' },
