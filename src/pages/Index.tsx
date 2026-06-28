@@ -43,6 +43,15 @@ const events = [
   { tag: 'Праздник', emoji: '🎄', title: 'Новогодний корпоратив', desc: 'Тёплый вечер с глинтвейном, подарками и творческими конкурсами.' },
 ];
 
+const reviews = [
+  { name: 'Ольга Кузнецова', course: 'Живопись маслом', emoji: '🌸', text: 'Никогда не думала, что смогу рисовать. После первого же занятия поняла — это моё! Анна объясняет так просто и понятно, что страх пропадает сразу.' },
+  { name: 'Михаил Трофимов', course: 'Рисунок', emoji: '🎸', text: 'Хожу уже полгода — это лучшее, что я сделал для себя. Расслабляет после работы, голова отдыхает, а в конце занятия уходишь с картиной в руках.' },
+  { name: 'Светлана Иванова', course: 'Скульптура', emoji: '🌿', text: 'Лепка из глины — это медитация. Мария потрясающий педагог, чувствуется настоящая любовь к делу. Рекомендую всем без исключения!' },
+  { name: 'Денис Павлов', course: 'Натюрморт', emoji: '☕', text: 'Пришёл скептиком, ушёл фанатом. Уже три работы висят дома в рамках. Друзья не верят, что я сам нарисовал!' },
+  { name: 'Елена Соколова', course: 'Композиция', emoji: '🦋', text: 'Атмосфера в студии особенная — тёплая, без соревнований. Каждый работает в своём темпе. Я нашла здесь и хобби, и новых друзей.' },
+  { name: 'Андрей Белов', course: 'Живопись, акварель', emoji: '🚀', text: 'Занимаюсь второй год. Прогресс виден невооружённым взглядом. Это лучшая инвестиция в себя — советую всем, кто давно хотел начать!' },
+];
+
 const navLinks = [
   { id: 'courses', label: 'Курсы' },
   { id: 'gallery', label: 'Галерея' },
@@ -237,6 +246,30 @@ const Index = () => {
               </div>
               <h3 className="font-display font-bold text-2xl mt-4">{e.title}</h3>
               <p className="mt-2 text-muted-foreground">{e.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* REVIEWS */}
+      <section className="container py-24">
+        <SectionTitle eyebrow="отзывы" title="Что говорят наши ученики" />
+        <div className="grid md:grid-cols-3 gap-6 mt-12">
+          {reviews.map((r) => (
+            <div key={r.name} className="rounded-3xl border border-border bg-card p-7 flex flex-col gap-4 hover:shadow-xl transition-shadow">
+              <div className="flex gap-1">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Icon key={i} name="Star" size={18} className="text-accent fill-accent" />
+                ))}
+              </div>
+              <p className="text-muted-foreground leading-relaxed flex-1">«{r.text}»</p>
+              <div className="flex items-center gap-3 pt-2 border-t border-border">
+                <div className="w-11 h-11 rounded-full bg-primary/10 grid place-items-center text-xl shrink-0">{r.emoji}</div>
+                <div>
+                  <div className="font-semibold">{r.name}</div>
+                  <div className="text-sm text-muted-foreground">{r.course}</div>
+                </div>
+              </div>
             </div>
           ))}
         </div>
