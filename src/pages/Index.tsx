@@ -98,12 +98,12 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-40 bg-background/80 backdrop-blur-md border-b border-border">
-        <div className="container flex items-center justify-between h-20">
+        <div className="container flex flex-col items-center justify-center h-20 relative">
           <button onClick={() => scrollTo('hero')} className="flex items-center gap-3 font-display font-extrabold text-[2.8rem] leading-none">
             <span className="text-5xl">🎨</span>
             <span className="text-primary">Палитра</span>
           </button>
-          <nav className="hidden lg:flex items-center gap-7">
+          <nav className="hidden lg:flex items-center gap-7 absolute right-0">
             {navLinks.map((l) => (
               <button key={l.id} onClick={() => scrollTo(l.id)} className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                 {l.label}
