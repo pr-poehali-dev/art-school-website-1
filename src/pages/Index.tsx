@@ -144,7 +144,6 @@ const Index = () => {
           </div>
           <div className="relative animate-float-up" style={{ animationDelay: '0.15s' }}>
             <img src={WORK_2} alt="Работа ученика" className="rounded-[2rem] w-full aspect-square object-cover shadow-2xl" />
-            <img src={WORK_1} alt="Работа ученика" className="absolute -bottom-8 -left-8 w-40 h-40 object-cover rounded-2xl border-4 border-background shadow-xl rotate-[-6deg]" />
             <div className="absolute -top-5 -right-3 bg-accent text-accent-foreground font-display font-bold px-5 py-3 rounded-2xl shadow-lg rotate-6">
               🎉 День открытых дверей 1 июля!
             </div>
