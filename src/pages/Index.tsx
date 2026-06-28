@@ -8,6 +8,7 @@ const WORK_3 = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4de
 const PENCIL = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/f7a48a5c-d59a-47b0-a3ba-2cd3f882e707.jpg';
 const WATERCOLOR = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/3aa5dc7d-e367-43ad-8eb2-43776a08e4d8.jpg';
 const GOUACHE = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/81010ba2-59aa-4ea6-b6f8-ffc8ab19768a.jpg';
+const OPEN_DAY = 'https://cdn.poehali.dev/projects/03ce724a-2ba4-4d98-bd85-35dc4dede31b/files/a1c697ea-b4ae-4925-ab22-0bd3c08728f0.jpg';
 
 const courses = [
   { icon: 'PencilLine', title: 'Рисунок', color: 'bg-primary', desc: 'Учимся видеть форму, объём и свет. Карандаш, уголь, основы перспективы и построения.', img: PENCIL },
@@ -139,8 +140,9 @@ const Index = () => {
 
       {/* OPEN DAY BANNER */}
       <section className="container">
-        <div className="rounded-[2rem] bg-primary text-primary-foreground p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6 overflow-hidden relative">
-          <div className="absolute right-0 top-0 text-[12rem] opacity-10 leading-none -mt-8">🎨</div>
+        <div className="rounded-[2rem] text-white p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6 overflow-hidden relative min-h-[220px]">
+          <img src={OPEN_DAY} alt="День открытых дверей" className="absolute inset-0 w-full h-full object-cover rounded-[2rem]" />
+          <div className="absolute inset-0 rounded-[2rem] bg-primary/75" />
           <div className="relative">
             <span className="font-hand text-2xl">приходите все желающие</span>
             <h2 className="font-display font-extrabold text-3xl md:text-4xl mt-1">День открытых дверей · 1 июля</h2>
